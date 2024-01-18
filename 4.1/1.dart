@@ -1,10 +1,8 @@
 import 'dart:io';
 
 void main() {
-  int a;
   stdout.write('Enter the num :');
-  String? b = stdin.readLineSync();
-  a = int.parse(b!);
+  int a = int.parse(stdin.readLineSync()!);
   print(cube(a));
 }
 
